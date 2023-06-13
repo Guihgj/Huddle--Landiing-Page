@@ -1,0 +1,150 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    background-image:url('/src/img/bg-desktop.svg');
+    background-repeat:no-repeat;
+    background-color:var(--violet);
+    overflow:hidden;
+ 
+}
+
+.container{
+margin:0 auto;
+}
+
+.main{
+    display:flex;
+    justify-content:center;
+    padding:25px;
+    gap:40px;
+    margin-left:15px;
+
+}
+
+.texto{
+margin-top:50px;
+}
+
+.texto h1{
+    color:white;
+    font-size:2.55em;
+    font-weight:600;
+    width:550px;
+}
+
+.texto p{
+    margin-top:25px;
+    color:white;
+    font-size:1.25em;
+}
+
+.btn{
+    margin-top:35px;
+    padding:13px;
+    width:180px;
+    border-radius:25px;
+    font-size:1.10em;
+    color:var(--violet);
+}
+
+.btn:hover{
+    background-color:var(--soft);
+    color:white;
+    cursor: pointer;
+    transition:0.1s ease;
+}
+
+
+
+ 
+
+
+
+@media screen and (max-width:1250px) {
+   
+    body{
+    background-image:url('/src/img/bg-desktop.svg');
+    background-repeat:no-repeat;
+    background-color:var(--violet);
+    }
+   
+    .main{
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+
+    }
+
+    .imagem img{
+       width:100%;
+    }
+
+    .texto{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        margin:10px auto;
+      
+    }
+
+    .texto h1{
+        font-size:2.70em;
+        width:490px;
+    }
+
+    .texto p{
+        width:90%;
+        text-align:center;
+        font-size:1.65em;
+    }
+
+    .btn{
+        width:220px;
+        padding:21px;
+    }
+
+   
+}
+
+@media screen and (min-width:1355px) {
+    header img{
+        margin-top:150px;
+        }
+       
+       
+        .main{
+            margin-top:220px;
+        }
+    
+        .texto h1{
+            font-size:3.05em;
+            font-weight:600px;
+        }
+    
+        .texto p{
+            margin-top:30px;
+            font-size:1.80em;
+        }
+    
+        .btn{
+            margin-top:50px;
+            width:330px;
+            padding:24px;
+        }
+    
+   
+   
+}
+
+
+
+
+
+
+
+
+
